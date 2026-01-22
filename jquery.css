@@ -43,16 +43,23 @@ body {
 }
 
 .input-upc {
+    padding: 5px;
+    height: 20px;
     border-radius: 8px;
-    padding: 8px;
     width: 130px;
     margin: 0 5px;
+    border: 1px solid #ccc;
 }
 
 .btn-upc {
-    border: none;
-    padding: 10px 25px;
-    border-radius: 8px;
-    font-weight: bold;
+    background-color: #183c35;
+    color: #fff;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+    border: 1px solid #3b3b3b;
+    padding: 5px;
+    width: 140px;
     cursor: pointer;
+    margin-left: 10px;
 }
