@@ -1,0 +1,58 @@
+/* estilos.css */
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background: whitesmoke;
+    font-family: Arial, sans-serif;
+}
+
+#app-limpia {
+    width: 90%;
+    max-width: 600px;
+    border: 1px solid lightgray;
+    border-radius: 15px;
+    background: white;
+    overflow: hidden;
+    box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+}
+
+.header-upc {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid #ddd;
+}
+
+.banner-verde {
+    background: rgb(26,57,49);
+    color: white;
+    padding: 15px 30px;
+    border-radius: 0 0 0 40px;
+    font-weight: bold;
+    font-size: 22px;
+    text-align: right;
+    line-height: 1;
+}
+
+.form-body {
+    padding: 30px;
+    text-align: center;
+}
+
+.input-upc {
+    border-radius: 8px;
+    padding: 8px;
+    width: 130px;
+    margin: 0 5px;
+}
+
+.btn-upc {
+    border: none;
+    padding: 10px 25px;
+    border-radius: 8px;
+    font-weight: bold;
+    cursor: pointer;
+}
